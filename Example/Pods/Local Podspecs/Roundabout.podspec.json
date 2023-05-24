@@ -1,0 +1,24 @@
+{
+  "name": "Roundabout",
+  "version": "0.1.0",
+  "summary": "路由",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yangxiongkai/Roundabout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yangxiongkai": "yangxiongkai@126.com"
+  },
+  "source": {
+    "git": "https://github.com/yangxiongkai/Roundabout.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "Roundabout/Classes/**/*",
+  "swift_version": "5.0"
+}

@@ -7,18 +7,37 @@
 //
 
 import UIKit
+import Roundabout
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        navigationItem.title = "路由列表"
+        tableView.register(NormalCell.self, forCellReuseIdentifier: "NormalCell")
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    private let data: [String] = [kProductListRoute, kProductDetailsRoute, kProducPayRoute]
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "NormalCell", for: indexPath)
+        cell.textLabel?.text = data[indexPath.row]
+        return cell
     }
-
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        data.count
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        RouterManager.shared.openURL(data[indexPath.row])
+    }
 }
 
+fileprivate class NormalCell: UITableViewCell {}
+
+// 路由静态列表
+let kProductListRoute = "native://product/list"
+let kProductDetailsRoute = "native://product/details"
+let kProducPayRoute = "native://product/pay"
