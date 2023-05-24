@@ -7,24 +7,83 @@
 
 import UIKit
 
+public protocol RouterParable {}
+extension String: RouterParable {}
+extension Int: RouterParable {}
+extension Array: RouterParable {}
+extension Dictionary: RouterParable {}
+
 public protocol Routable: UIViewController {
     
-    func routePara() -> PageParameterizable?
+    associatedtype CustomParaType: RouterParable
     
-    func routeURL() -> String
-    
-    func routeIntoMode() -> RouteIntoMode
+    static func routeURL() -> String
+        
+//    static func routeParaType() -> CustomParaType.Type
+
+    init(para: CustomParaType)
+        
+    func routeMode() -> RouteMode
 }
 
 public extension Routable {
-    func routePara() -> PageParameterizable? { nil }
+    
+    func routeMode() -> RouteMode { .push }
 }
 
-public protocol PageParameterizable {}
-
-public enum RouteIntoMode {
+public enum RouteMode {
     
-    case present(modalPresentationStyle: UIModalPresentationStyle, modalTransitionStyle: UIModalTransitionStyle)
+    case modal(presentationStyle: UIModalPresentationStyle, transitionStyle: UIModalTransitionStyle)
     
     case push
+}
+
+//public protocol RoutableAir: Routable {
+//    associatedtype CustomParaType = String
+//}
+//
+//public extension RoutableAir {
+//    init(para: CustomParaType) { self.init() }
+//}
+
+// MARK: - Test Code
+
+// 有参路由
+class TestController: UIViewController, Routable {
+    
+    required convenience init(para: String) {
+        self.init()
+
+        self.id = para
+    }
+    
+    typealias CustomParaType = String
+    
+    private var id: String = ""
+    
+    static func routeURL() -> String { "TestController" }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        print("传过来的id=\(id)")
+    }
+}
+
+// 无参路由
+//class TestController2: UIViewController {}
+//extension TestController2: RoutableAir {
+//    static func routeURL() -> String {
+//        ""
+//    }
+//}
+
+class TestManager {
+    
+    func test() {
+        
+        let t = TestController.self
+        
+        let vc = t.init(para: "")
+        print(vc)
+    }
 }

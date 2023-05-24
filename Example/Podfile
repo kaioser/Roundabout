@@ -4,6 +4,8 @@ platform :ios, '13.0'
 
 target 'Roundabout_Example' do
   pod 'Roundabout', :path => '../'
+  
+  pod 'Extension/ViewController', :path => '../../Extension'
 
   target 'Roundabout_Tests' do
     inherit! :search_paths

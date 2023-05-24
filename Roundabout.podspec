@@ -33,6 +33,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'Roundabout/Classes/**/*'
   
+  s.dependency 'Extension/ViewController'
+  
   # s.resource_bundles = {
   #   'Roundabout' => ['Roundabout/Assets/*.png']
   # }

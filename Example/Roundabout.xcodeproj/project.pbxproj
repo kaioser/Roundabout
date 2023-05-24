@@ -274,10 +274,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Roundabout_Example/Pods-Roundabout_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Extension/Extension.framework",
 				"${BUILT_PRODUCTS_DIR}/Roundabout/Roundabout.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Extension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Roundabout.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

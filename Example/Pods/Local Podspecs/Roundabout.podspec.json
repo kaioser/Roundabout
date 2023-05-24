@@ -20,5 +20,10 @@
   },
   "swift_versions": "5.0",
   "source_files": "Roundabout/Classes/**/*",
+  "dependencies": {
+    "Extension/ViewController": [
+
+    ]
+  },
   "swift_version": "5.0"
 }

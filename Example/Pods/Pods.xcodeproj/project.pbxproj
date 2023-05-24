@@ -8,69 +8,99 @@
 
 /* Begin PBXBuildFile section */
 		074E45A08E40E1C30D4920A17E8F30D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1511F4ABDA056146789B486F5AA98F82 /* Pods-Roundabout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 133F0A68874553AE384AA44851366693 /* Pods-Roundabout_Example-dummy.m */; };
-		21C4205A84934A10DA40EC32E96ED1E6 /* Pods-Roundabout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0A57132D96396911FCF48CE51A0D7F /* Pods-Roundabout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57044A1CF8DBBDD5DDE2D33DFE117E77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1D2890C46B1D2BBCBE83B2A9F0D47DD2 /* Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D25330D219CDB6DEAD1CFFAD4AD61F5 /* Extension-dummy.m */; };
+		3472CAA80DFF223360A762C71F3AA727 /* Roundabout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD9685F38FDD6FFC73CB137D3ADA9626 /* Roundabout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E221B499DBEF678F638A49E320E0184 /* Pods-Roundabout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0A57132D96396911FCF48CE51A0D7F /* Pods-Roundabout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DC17C9DFCE305DBE3A25778DC4D2D0C /* Pods-Roundabout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51D5C51D2F9FF6BD10F2B29C18564043 /* Pods-Roundabout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7579A54018D9C333ED66F304D865328B /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C00CFAD6640173B6315C613919750A4 /* Routable.swift */; };
+		76367C33C354E7895341CC1E5C75D5D2 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387C46840D7EC533E5DE4285195735DD /* UIViewController+Extension.swift */; };
+		8084EEE099D4AF69E70DB7AC997C7B12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A497F74AD55B5D4BBA170C57A8447661 /* Pods-Roundabout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD781016212DB7DE0573111661E6126 /* Pods-Roundabout_Tests-dummy.m */; };
-		A996E8D49B70E0E922AD57C11930119A /* RouterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F8679C58A770A45A5ED5908A1C3EA /* RouterManager.swift */; };
-		BEF42335EDF25413889F67D5ED535C3A /* Roundabout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 828BEE109BB3EE0AE79A799469B75710 /* Roundabout-dummy.m */; };
-		D6809B554B6DD39E5007086324F29CF4 /* Roundabout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B78F04F4ABBBA055067E9C418102571 /* Roundabout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB0323AF5DF739EEB0E6F952A09DA87C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F58E5A1184060CF9D3BD60D009CA5689 /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7DA0A0E98BE2F86D2371C21570EC0F /* Routable.swift */; };
+		B0C61A2DAEB247E5F727631C43638012 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DF61802670048244A49FCF118E97E93A /* RouterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06E5D6E36549FB3F01C2B73FB7C7FBB /* RouterManager.swift */; };
+		E5D7EE8ADAB8809C802FDA27DA788E72 /* Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 556C0DD32E9D2D831E32DA51A1A30637 /* Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF629D895182C8A95BD8EC97E7BA95AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F3E431EDA89D3A17736AE61386652591 /* Pods-Roundabout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 133F0A68874553AE384AA44851366693 /* Pods-Roundabout_Example-dummy.m */; };
+		F972BF59EE8CCA61AA1816EC2D49C0A6 /* Roundabout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3D5873EC8FD494F786D3E1841CB57C /* Roundabout-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2AA906BE0967DF555B9E675E432345C3 /* PBXContainerItemProxy */ = {
+		14A61C39B88681B4AF2A454A0B9AD68E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8E0259E92E6029DD44AD9C36BC2BCBD7;
-			remoteInfo = "Pods-Roundabout_Example";
+			remoteGlobalIDString = 83F2BFD83867A9D0A2EB4346E585EA0B;
+			remoteInfo = Extension;
 		};
-		9A765AFB41902024245F5949535F1C0F /* PBXContainerItemProxy */ = {
+		D572143113A11567F989C687B24C9741 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9C00A7C7CDAA0FB2B8A3EE6B4D53949F;
 			remoteInfo = Roundabout;
 		};
+		DFCCB4A9D95C63D5369BB5F2AFE32391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83F2BFD83867A9D0A2EB4346E585EA0B;
+			remoteInfo = Extension;
+		};
+		E8D6C8A2170AB348594B1E7B7C412F59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E0259E92E6029DD44AD9C36BC2BCBD7;
+			remoteInfo = "Pods-Roundabout_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0467FA47AC6D7BD421F624CAB8D47FB1 /* Pods-Roundabout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Roundabout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		09B36AF3DC94BE706B65DDF8B25D6B6D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		0A44C81A5EF4F9A4C6A64F257754F101 /* Pods-Roundabout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Roundabout_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0CCE440BC59B8701082194A36EC90D27 /* Pods-Roundabout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Roundabout_Tests.modulemap"; sourceTree = "<group>"; };
-		10366AB41FBF374524DCDBD2C8B0FFB7 /* Roundabout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Roundabout.release.xcconfig; sourceTree = "<group>"; };
 		133F0A68874553AE384AA44851366693 /* Pods-Roundabout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Roundabout_Example-dummy.m"; sourceTree = "<group>"; };
 		190C4C341E0D10A9CFC20291C33336AE /* Pods-Roundabout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Roundabout_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1B78F04F4ABBBA055067E9C418102571 /* Roundabout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Roundabout-umbrella.h"; sourceTree = "<group>"; };
-		2DBD42F39E576E923E12108F3828EE3B /* Roundabout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Roundabout.debug.xcconfig; sourceTree = "<group>"; };
+		290DBAF44F6809BBDE0471D6149BCB36 /* Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Extension.release.xcconfig; sourceTree = "<group>"; };
+		2CBB692BE2C9B2FE18976218AF81868B /* Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Extension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2D25330D219CDB6DEAD1CFFAD4AD61F5 /* Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Extension-dummy.m"; sourceTree = "<group>"; };
 		3138D91009EE5FE4688B9CA2FF4955DB /* Pods-Roundabout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Roundabout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		314F31EB54DC8C4698BE6417632FE38D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		348950A84FAAACA3D9A6348F10011730 /* Pods-Roundabout_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Roundabout_Tests"; path = Pods_Roundabout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A7DA0A0E98BE2F86D2371C21570EC0F /* Routable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Routable.swift; path = Roundabout/Classes/Routable.swift; sourceTree = "<group>"; };
+		387C46840D7EC533E5DE4285195735DD /* UIViewController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extension.swift"; path = "Extension/Classes/ViewController/UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		3B16FAA133E4CA2623FB0A83C46B2B5C /* Extension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Extension; path = Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C00CFAD6640173B6315C613919750A4 /* Routable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Routable.swift; path = Roundabout/Classes/Routable.swift; sourceTree = "<group>"; };
 		51D5C51D2F9FF6BD10F2B29C18564043 /* Pods-Roundabout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Roundabout_Tests-umbrella.h"; sourceTree = "<group>"; };
 		554E6CC76A715FF6D5178F17E86FFA40 /* Pods-Roundabout_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Roundabout_Example"; path = Pods_Roundabout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		556C0DD32E9D2D831E32DA51A1A30637 /* Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Extension-umbrella.h"; sourceTree = "<group>"; };
+		5598071536BF2B02DEB603E2A7F693E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5BB687D320BFDDFD4DBD9CEBC40AB7C5 /* Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Extension-Info.plist"; sourceTree = "<group>"; };
 		5E1E12026E2EABF2E6985BC5E38B53BC /* Pods-Roundabout_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Roundabout_Tests-Info.plist"; sourceTree = "<group>"; };
-		65640EAE261FFB9007B709E767A74427 /* Roundabout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Roundabout-prefix.pch"; sourceTree = "<group>"; };
+		6A157FA05095FA6FD7E91D20020BE541 /* Roundabout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Roundabout.release.xcconfig; sourceTree = "<group>"; };
+		6B3A91C47E6C316479E54CD22886CCA0 /* Roundabout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Roundabout-Info.plist"; sourceTree = "<group>"; };
 		6CA22C5B1E413A3F74914AC72618789C /* Pods-Roundabout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Roundabout_Example.modulemap"; sourceTree = "<group>"; };
 		6FD781016212DB7DE0573111661E6126 /* Pods-Roundabout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Roundabout_Tests-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		79D3500D86F14FFCF63F2F894CF6F2C1 /* Roundabout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Roundabout.modulemap; sourceTree = "<group>"; };
-		7DFBEB85DD1499C400FFC6401F2981C1 /* Roundabout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Roundabout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		828BEE109BB3EE0AE79A799469B75710 /* Roundabout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Roundabout-dummy.m"; sourceTree = "<group>"; };
 		8B272F182C0854AB53934381E37DEC54 /* Pods-Roundabout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Roundabout_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E92979FFB27B2588204F38AE1CFC545 /* Extension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Extension-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A324BDF2ABF79ED26F3E17D00CB42A4B /* Roundabout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Roundabout-prefix.pch"; sourceTree = "<group>"; };
 		A5FF0DBEF57051DA818996FC4299C7F8 /* Pods-Roundabout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Roundabout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A917AD45B9B34ECCAA596E6405BA9DB3 /* Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Extension.debug.xcconfig; sourceTree = "<group>"; };
 		ABF65274567F1133CD61CD995EB1F952 /* Pods-Roundabout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Roundabout_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B8974B6E83A310D1DCD85810C98EE612 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		BA9DAF08749592A23452650B8E8DE334 /* Roundabout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Roundabout-Info.plist"; sourceTree = "<group>"; };
+		B2C109609D8B951A3A76C8F9DDD3BD6B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BD9685F38FDD6FFC73CB137D3ADA9626 /* Roundabout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Roundabout-umbrella.h"; sourceTree = "<group>"; };
 		CB2BD877E1FF40D9F917A14BE794447F /* Pods-Roundabout_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Roundabout_Example-Info.plist"; sourceTree = "<group>"; };
+		D245FA156BC431EAADE505BF87092B50 /* Roundabout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Roundabout.debug.xcconfig; sourceTree = "<group>"; };
+		D8D3EC3AFA47B4F66E547760F85D3015 /* Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Extension.modulemap; sourceTree = "<group>"; };
+		D91C9E53DEC56714EC00264251158CF9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D982AA84A5BBA5C0F35476A136C5D91B /* Roundabout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Roundabout; path = Roundabout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC8EA3A66F1C382ACD3CCD720B010C0 /* Roundabout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Roundabout.modulemap; sourceTree = "<group>"; };
+		E06E5D6E36549FB3F01C2B73FB7C7FBB /* RouterManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouterManager.swift; path = Roundabout/Classes/RouterManager.swift; sourceTree = "<group>"; };
 		E2D578A7C72ECA4DE2D17BC998F6BD86 /* Pods-Roundabout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Roundabout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7F8C86D2ED39B84E2AAD7E379215A92 /* Roundabout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Roundabout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E9657E3CE35F3855BC61C1FABA67FEAF /* Pods-Roundabout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Roundabout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F43F8679C58A770A45A5ED5908A1C3EA /* RouterManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouterManager.swift; path = Roundabout/Classes/RouterManager.swift; sourceTree = "<group>"; };
+		EB3D5873EC8FD494F786D3E1841CB57C /* Roundabout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Roundabout-dummy.m"; sourceTree = "<group>"; };
 		FF0A57132D96396911FCF48CE51A0D7F /* Pods-Roundabout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Roundabout_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,28 +113,88 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		293673A6F8927D59047419EF63BB089E /* Frameworks */ = {
+		4657C92AD76FD332FFACE31C1725B619 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57044A1CF8DBBDD5DDE2D33DFE117E77 /* Foundation.framework in Frameworks */,
+				8084EEE099D4AF69E70DB7AC997C7B12 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA13899B8D9325BBBE4DD6769BB84196 /* Frameworks */ = {
+		5786B78E51B039413E4BAE782F359A12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB0323AF5DF739EEB0E6F952A09DA87C /* Foundation.framework in Frameworks */,
+				EF629D895182C8A95BD8EC97E7BA95AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA565318EE6FBBB3152DD78DF106DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C61A2DAEB247E5F727631C43638012 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1330D8F57A321885FC03F232EA76D605 /* Products */ = {
+		064517E6416EA2352E28636126C0F71A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				D8D3EC3AFA47B4F66E547760F85D3015 /* Extension.modulemap */,
+				2D25330D219CDB6DEAD1CFFAD4AD61F5 /* Extension-dummy.m */,
+				5BB687D320BFDDFD4DBD9CEBC40AB7C5 /* Extension-Info.plist */,
+				8E92979FFB27B2588204F38AE1CFC545 /* Extension-prefix.pch */,
+				556C0DD32E9D2D831E32DA51A1A30637 /* Extension-umbrella.h */,
+				A917AD45B9B34ECCAA596E6405BA9DB3 /* Extension.debug.xcconfig */,
+				290DBAF44F6809BBDE0471D6149BCB36 /* Extension.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Roundabout/Example/Pods/Target Support Files/Extension";
+			sourceTree = "<group>";
+		};
+		1D9791D0353B1D4D189C9772C4A7E6D0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				09B36AF3DC94BE706B65DDF8B25D6B6D /* LICENSE */,
+				5598071536BF2B02DEB603E2A7F693E8 /* README.md */,
+				E7F8C86D2ED39B84E2AAD7E379215A92 /* Roundabout.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		25AF26CD34C2214D2EAB1684EB78966C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBC8EA3A66F1C382ACD3CCD720B010C0 /* Roundabout.modulemap */,
+				EB3D5873EC8FD494F786D3E1841CB57C /* Roundabout-dummy.m */,
+				6B3A91C47E6C316479E54CD22886CCA0 /* Roundabout-Info.plist */,
+				A324BDF2ABF79ED26F3E17D00CB42A4B /* Roundabout-prefix.pch */,
+				BD9685F38FDD6FFC73CB137D3ADA9626 /* Roundabout-umbrella.h */,
+				D245FA156BC431EAADE505BF87092B50 /* Roundabout.debug.xcconfig */,
+				6A157FA05095FA6FD7E91D20020BE541 /* Roundabout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Roundabout";
+			sourceTree = "<group>";
+		};
+		39B60105CB8EC0699D736058920D1254 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				61B6762C9D5FE5313E4086AD7DD540DA /* Pod */,
+				064517E6416EA2352E28636126C0F71A /* Support Files */,
+				E8EFC46FBBB9CC76D14882CB7C93CD6D /* ViewController */,
+			);
+			name = Extension;
+			path = ../../../Extension;
+			sourceTree = "<group>";
+		};
+		4548A6C80084042C98E539010224666D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B16FAA133E4CA2623FB0A83C46B2B5C /* Extension */,
 				554E6CC76A715FF6D5178F17E86FFA40 /* Pods-Roundabout_Example */,
 				348950A84FAAACA3D9A6348F10011730 /* Pods-Roundabout_Tests */,
 				D982AA84A5BBA5C0F35476A136C5D91B /* Roundabout */,
@@ -136,16 +226,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		96FC01D233C1904D4E0D50897A3582F1 /* Roundabout */ = {
+		61B6762C9D5FE5313E4086AD7DD540DA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3A7DA0A0E98BE2F86D2371C21570EC0F /* Routable.swift */,
-				F43F8679C58A770A45A5ED5908A1C3EA /* RouterManager.swift */,
-				E681E8B216C1B080DA78D327B18074BC /* Pod */,
-				DC99A48C3A503E0E75F26B720F732522 /* Support Files */,
+				2CBB692BE2C9B2FE18976218AF81868B /* Extension.podspec */,
+				B2C109609D8B951A3A76C8F9DDD3BD6B /* LICENSE */,
+				D91C9E53DEC56714EC00264251158CF9 /* README.md */,
 			);
-			name = Roundabout;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		B50FF9C34F5A26D8CF203D1EC4E9FF2B /* Targets Support Files */ = {
@@ -157,21 +245,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		CAD0BEB62C48BCDC72FFED0B86F2CA09 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				96FC01D233C1904D4E0D50897A3582F1 /* Roundabout */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CAD0BEB62C48BCDC72FFED0B86F2CA09 /* Development Pods */,
+				D4AA12D55878D23098277A8A24B724C8 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				1330D8F57A321885FC03F232EA76D605 /* Products */,
+				4548A6C80084042C98E539010224666D /* Products */,
 				B50FF9C34F5A26D8CF203D1EC4E9FF2B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -184,29 +264,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DC99A48C3A503E0E75F26B720F732522 /* Support Files */ = {
+		D4AA12D55878D23098277A8A24B724C8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				79D3500D86F14FFCF63F2F894CF6F2C1 /* Roundabout.modulemap */,
-				828BEE109BB3EE0AE79A799469B75710 /* Roundabout-dummy.m */,
-				BA9DAF08749592A23452650B8E8DE334 /* Roundabout-Info.plist */,
-				65640EAE261FFB9007B709E767A74427 /* Roundabout-prefix.pch */,
-				1B78F04F4ABBBA055067E9C418102571 /* Roundabout-umbrella.h */,
-				2DBD42F39E576E923E12108F3828EE3B /* Roundabout.debug.xcconfig */,
-				10366AB41FBF374524DCDBD2C8B0FFB7 /* Roundabout.release.xcconfig */,
+				39B60105CB8EC0699D736058920D1254 /* Extension */,
+				F8DD62F810A1E182A36285657B0AF568 /* Roundabout */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Roundabout";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		E681E8B216C1B080DA78D327B18074BC /* Pod */ = {
+		E8EFC46FBBB9CC76D14882CB7C93CD6D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				B8974B6E83A310D1DCD85810C98EE612 /* LICENSE */,
-				314F31EB54DC8C4698BE6417632FE38D /* README.md */,
-				7DFBEB85DD1499C400FFC6401F2981C1 /* Roundabout.podspec */,
+				387C46840D7EC533E5DE4285195735DD /* UIViewController+Extension.swift */,
 			);
-			name = Pod;
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 		E9FD08C633BE1877E124F1AAF0EDF92C /* Pods-Roundabout_Example */ = {
@@ -226,6 +298,18 @@
 			path = "Target Support Files/Pods-Roundabout_Example";
 			sourceTree = "<group>";
 		};
+		F8DD62F810A1E182A36285657B0AF568 /* Roundabout */ = {
+			isa = PBXGroup;
+			children = (
+				4C00CFAD6640173B6315C613919750A4 /* Routable.swift */,
+				E06E5D6E36549FB3F01C2B73FB7C7FBB /* RouterManager.swift */,
+				1D9791D0353B1D4D189C9772C4A7E6D0 /* Pod */,
+				25AF26CD34C2214D2EAB1684EB78966C /* Support Files */,
+			);
+			name = Roundabout;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -237,38 +321,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		569E3182118E83C6B59D66C4D64D1A3C /* Headers */ = {
+		BBF9CD30BBD9FF289A95E1B5B3EE4FF2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21C4205A84934A10DA40EC32E96ED1E6 /* Pods-Roundabout_Example-umbrella.h in Headers */,
+				4E221B499DBEF678F638A49E320E0184 /* Pods-Roundabout_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E362D44F8CE1D4B26CC83690B78377E9 /* Headers */ = {
+		C1AFD7C2578ABA2FFF36125FA98FC00F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6809B554B6DD39E5007086324F29CF4 /* Roundabout-umbrella.h in Headers */,
+				E5D7EE8ADAB8809C802FDA27DA788E72 /* Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A7CAA609C755DA541A58AFA2AF74DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3472CAA80DFF223360A762C71F3AA727 /* Roundabout-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8E0259E92E6029DD44AD9C36BC2BCBD7 /* Pods-Roundabout_Example */ = {
+		83F2BFD83867A9D0A2EB4346E585EA0B /* Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08139C782778CEE81B04EE55E00927D9 /* Build configuration list for PBXNativeTarget "Pods-Roundabout_Example" */;
+			buildConfigurationList = 96F2CA95FDF6E70057AA274E4C16ABFD /* Build configuration list for PBXNativeTarget "Extension" */;
 			buildPhases = (
-				569E3182118E83C6B59D66C4D64D1A3C /* Headers */,
-				B35EB3CC4572EE964A47CC9B7CC1AFC6 /* Sources */,
-				293673A6F8927D59047419EF63BB089E /* Frameworks */,
-				FB6861B17915D1E1E9BBA886DFFE3F87 /* Resources */,
+				C1AFD7C2578ABA2FFF36125FA98FC00F /* Headers */,
+				C34C95DA4E8F8098515A7010F9684D24 /* Sources */,
+				8CA565318EE6FBBB3152DD78DF106DF7 /* Frameworks */,
+				EB1DF979BFA88E9FB52634C192CD5B26 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D1B2FDCBA993D1E61CBF4E56EC7AD1B3 /* PBXTargetDependency */,
+			);
+			name = Extension;
+			productName = Extension;
+			productReference = 3B16FAA133E4CA2623FB0A83C46B2B5C /* Extension */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E0259E92E6029DD44AD9C36BC2BCBD7 /* Pods-Roundabout_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905FCD418B10D97E6F2AA3A0B16F1A6D /* Build configuration list for PBXNativeTarget "Pods-Roundabout_Example" */;
+			buildPhases = (
+				BBF9CD30BBD9FF289A95E1B5B3EE4FF2 /* Headers */,
+				B1F89BAAA05F2DA7EE5A303B5EABCC99 /* Sources */,
+				4657C92AD76FD332FFACE31C1725B619 /* Frameworks */,
+				52CB239B3405448F878FCD2AE539816A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DCE5B02928E886F042096F650F4312B /* PBXTargetDependency */,
+				BBE94AD0DE03A5A282895195611F1284 /* PBXTargetDependency */,
 			);
 			name = "Pods-Roundabout_Example";
 			productName = Pods_Roundabout_Example;
@@ -277,16 +388,17 @@
 		};
 		9C00A7C7CDAA0FB2B8A3EE6B4D53949F /* Roundabout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF5DB1BE0448F63D2E98D414ABA5B7B1 /* Build configuration list for PBXNativeTarget "Roundabout" */;
+			buildConfigurationList = 89863A2137F3F34D0E9C4320E1BB293C /* Build configuration list for PBXNativeTarget "Roundabout" */;
 			buildPhases = (
-				E362D44F8CE1D4B26CC83690B78377E9 /* Headers */,
-				FCC2079146EF199C7BD7D8E0A10AD862 /* Sources */,
-				FA13899B8D9325BBBE4DD6769BB84196 /* Frameworks */,
-				33AEC41E4E5832CECC15883DF95A3B88 /* Resources */,
+				E7A7CAA609C755DA541A58AFA2AF74DA /* Headers */,
+				80D900289FC838BB539BE5838FF656D1 /* Sources */,
+				5786B78E51B039413E4BAE782F359A12 /* Frameworks */,
+				E6E26B3CBA04DEE3B0F0277114449BC5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2008371E992FB922A389E2E2DB4883C9 /* PBXTargetDependency */,
 			);
 			name = Roundabout;
 			productName = Roundabout;
@@ -305,7 +417,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F6CEE816CFF924AC1FECA7F586C5B0AA /* PBXTargetDependency */,
+				935D36607F25124BDAE823919CC1D502 /* PBXTargetDependency */,
 			);
 			name = "Pods-Roundabout_Tests";
 			productName = Pods_Roundabout_Tests;
@@ -330,10 +442,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1330D8F57A321885FC03F232EA76D605 /* Products */;
+			productRefGroup = 4548A6C80084042C98E539010224666D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				83F2BFD83867A9D0A2EB4346E585EA0B /* Extension */,
 				8E0259E92E6029DD44AD9C36BC2BCBD7 /* Pods-Roundabout_Example */,
 				CA7C65139E51CFB68C73DB24F782AA53 /* Pods-Roundabout_Tests */,
 				9C00A7C7CDAA0FB2B8A3EE6B4D53949F /* Roundabout */,
@@ -349,14 +462,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33AEC41E4E5832CECC15883DF95A3B88 /* Resources */ = {
+		52CB239B3405448F878FCD2AE539816A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB6861B17915D1E1E9BBA886DFFE3F87 /* Resources */ = {
+		E6E26B3CBA04DEE3B0F0277114449BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1DF979BFA88E9FB52634C192CD5B26 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,6 +486,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		80D900289FC838BB539BE5838FF656D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F972BF59EE8CCA61AA1816EC2D49C0A6 /* Roundabout-dummy.m in Sources */,
+				7579A54018D9C333ED66F304D865328B /* Routable.swift in Sources */,
+				DF61802670048244A49FCF118E97E93A /* RouterManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8AF31DDFB393E41DC1F3EF26BC96889C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -374,45 +504,123 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B35EB3CC4572EE964A47CC9B7CC1AFC6 /* Sources */ = {
+		B1F89BAAA05F2DA7EE5A303B5EABCC99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1511F4ABDA056146789B486F5AA98F82 /* Pods-Roundabout_Example-dummy.m in Sources */,
+				F3E431EDA89D3A17736AE61386652591 /* Pods-Roundabout_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCC2079146EF199C7BD7D8E0A10AD862 /* Sources */ = {
+		C34C95DA4E8F8098515A7010F9684D24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF42335EDF25413889F67D5ED535C3A /* Roundabout-dummy.m in Sources */,
-				F58E5A1184060CF9D3BD60D009CA5689 /* Routable.swift in Sources */,
-				A996E8D49B70E0E922AD57C11930119A /* RouterManager.swift in Sources */,
+				1D2890C46B1D2BBCBE83B2A9F0D47DD2 /* Extension-dummy.m in Sources */,
+				76367C33C354E7895341CC1E5C75D5D2 /* UIViewController+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D1B2FDCBA993D1E61CBF4E56EC7AD1B3 /* PBXTargetDependency */ = {
+		2008371E992FB922A389E2E2DB4883C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Roundabout;
-			target = 9C00A7C7CDAA0FB2B8A3EE6B4D53949F /* Roundabout */;
-			targetProxy = 9A765AFB41902024245F5949535F1C0F /* PBXContainerItemProxy */;
+			name = Extension;
+			target = 83F2BFD83867A9D0A2EB4346E585EA0B /* Extension */;
+			targetProxy = DFCCB4A9D95C63D5369BB5F2AFE32391 /* PBXContainerItemProxy */;
 		};
-		F6CEE816CFF924AC1FECA7F586C5B0AA /* PBXTargetDependency */ = {
+		935D36607F25124BDAE823919CC1D502 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Roundabout_Example";
 			target = 8E0259E92E6029DD44AD9C36BC2BCBD7 /* Pods-Roundabout_Example */;
-			targetProxy = 2AA906BE0967DF555B9E675E432345C3 /* PBXContainerItemProxy */;
+			targetProxy = E8D6C8A2170AB348594B1E7B7C412F59 /* PBXContainerItemProxy */;
+		};
+		9DCE5B02928E886F042096F650F4312B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Extension;
+			target = 83F2BFD83867A9D0A2EB4346E585EA0B /* Extension */;
+			targetProxy = 14A61C39B88681B4AF2A454A0B9AD68E /* PBXContainerItemProxy */;
+		};
+		BBE94AD0DE03A5A282895195611F1284 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Roundabout;
+			target = 9C00A7C7CDAA0FB2B8A3EE6B4D53949F /* Roundabout */;
+			targetProxy = D572143113A11567F989C687B24C9741 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1D9C90798727D06892F2BE3B4870304C /* Debug */ = {
+		2E4975B2B700DBF5ACEC992E9CC1A715 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DBD42F39E576E923E12108F3828EE3B /* Roundabout.debug.xcconfig */;
+			baseConfigurationReference = 190C4C341E0D10A9CFC20291C33336AE /* Pods-Roundabout_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Roundabout_Example/Pods-Roundabout_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Roundabout_Example/Pods-Roundabout_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4170F7E7F96675C8B8D3731CEFFEC543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 290DBAF44F6809BBDE0471D6149BCB36 /* Extension.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Extension/Extension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Extension/Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Extension/Extension.modulemap";
+				PRODUCT_MODULE_NAME = Extension;
+				PRODUCT_NAME = Extension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CAA7CF99F06652130D8DAA9A6DC3E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A157FA05095FA6FD7E91D20020BE541 /* Roundabout.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -437,10 +645,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		5D1215326819A6F4E01717332B485326 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -470,6 +679,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		728161526AC1F56851AC8F5E7CF92A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A917AD45B9B34ECCAA596E6405BA9DB3 /* Extension.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Extension/Extension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Extension/Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Extension/Extension.modulemap";
+				PRODUCT_MODULE_NAME = Extension;
+				PRODUCT_NAME = Extension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -542,41 +783,6 @@
 			};
 			name = Debug;
 		};
-		8FB7C2B13C428811A6FA8BAABBCB479C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B272F182C0854AB53934381E37DEC54 /* Pods-Roundabout_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Roundabout_Example/Pods-Roundabout_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Roundabout_Example/Pods-Roundabout_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -632,7 +838,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -673,9 +880,41 @@
 			};
 			name = Release;
 		};
-		ADF750FE72E5B44635528F81EEA65CD9 /* Debug */ = {
+		B0A948B6933B4A1330E1FFEB7BE0AF35 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 190C4C341E0D10A9CFC20291C33336AE /* Pods-Roundabout_Example.debug.xcconfig */;
+			baseConfigurationReference = D245FA156BC431EAADE505BF87092B50 /* Roundabout.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Roundabout/Roundabout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Roundabout/Roundabout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Roundabout/Roundabout.modulemap";
+				PRODUCT_MODULE_NAME = Roundabout;
+				PRODUCT_NAME = Roundabout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B9453A4C48429537BE2BDCCC75E0DBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B272F182C0854AB53934381E37DEC54 /* Pods-Roundabout_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -702,38 +941,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C0F33D08CCF8A810091AF686D315E26F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10366AB41FBF374524DCDBD2C8B0FFB7 /* Roundabout.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Roundabout/Roundabout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Roundabout/Roundabout-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Roundabout/Roundabout.modulemap";
-				PRODUCT_MODULE_NAME = Roundabout;
-				PRODUCT_NAME = Roundabout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -743,15 +950,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		08139C782778CEE81B04EE55E00927D9 /* Build configuration list for PBXNativeTarget "Pods-Roundabout_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ADF750FE72E5B44635528F81EEA65CD9 /* Debug */,
-				8FB7C2B13C428811A6FA8BAABBCB479C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -770,11 +968,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF5DB1BE0448F63D2E98D414ABA5B7B1 /* Build configuration list for PBXNativeTarget "Roundabout" */ = {
+		89863A2137F3F34D0E9C4320E1BB293C /* Build configuration list for PBXNativeTarget "Roundabout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D9C90798727D06892F2BE3B4870304C /* Debug */,
-				C0F33D08CCF8A810091AF686D315E26F /* Release */,
+				B0A948B6933B4A1330E1FFEB7BE0AF35 /* Debug */,
+				5CAA7CF99F06652130D8DAA9A6DC3E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		905FCD418B10D97E6F2AA3A0B16F1A6D /* Build configuration list for PBXNativeTarget "Pods-Roundabout_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4975B2B700DBF5ACEC992E9CC1A715 /* Debug */,
+				B9453A4C48429537BE2BDCCC75E0DBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F2CA95FDF6E70057AA274E4C16ABFD /* Build configuration list for PBXNativeTarget "Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728161526AC1F56851AC8F5E7CF92A8F /* Debug */,
+				4170F7E7F96675C8B8D3731CEFFEC543 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
