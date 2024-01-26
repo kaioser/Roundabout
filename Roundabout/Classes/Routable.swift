@@ -7,27 +7,25 @@
 
 import UIKit
 
-public protocol RouterParable {}
-extension String: RouterParable {}
-extension Int: RouterParable {}
-extension Array: RouterParable {}
-extension Dictionary: RouterParable {}
+//public protocol RouterParable {}
+//
+//extension String: RouterParable {}
+//extension Int: RouterParable {}
+//extension Array: RouterParable {}
+//extension Dictionary: RouterParable {}
 
 public protocol Routable: UIViewController {
     
-    associatedtype CustomParaType: RouterParable
+//    associatedtype CustomParaType: Any
     
     static func routeURL() -> String
         
-//    static func routeParaType() -> CustomParaType.Type
-
-    init(para: CustomParaType)
-        
+    static func routerController(_ para: Any) -> UIViewController
+                    
     func routeMode() -> RouteMode
 }
 
 public extension Routable {
-    
     func routeMode() -> RouteMode { .push }
 }
 
@@ -38,30 +36,20 @@ public enum RouteMode {
     case push
 }
 
-//public protocol RoutableAir: Routable {
-//    associatedtype CustomParaType = String
-//}
-//
-//public extension RoutableAir {
-//    init(para: CustomParaType) { self.init() }
-//}
-
 // MARK: - Test Code
 
 // 有参路由
 class TestController: UIViewController, Routable {
     
-    required convenience init(para: String) {
-        self.init()
-
-        self.id = para
+    static func routerController(_ para: Any) -> UIViewController {
+        TestController()
+    }
+            
+    static func routeURL() -> String {
+        "KKK"
     }
     
-    typealias CustomParaType = String
-    
     private var id: String = ""
-    
-    static func routeURL() -> String { "TestController" }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -83,7 +71,7 @@ class TestManager {
         
         let t = TestController.self
         
-        let vc = t.init(para: "")
-        print(vc)
+//        let vc = t.init(para: "")
+//        print(vc)
     }
 }

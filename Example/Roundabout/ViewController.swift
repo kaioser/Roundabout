@@ -42,8 +42,8 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
-        let item = data[indexPath.row]
-        RouterManager.shared.open(item.urlString)
+//        let item = data[indexPath.row]
+//        RouterManager.shared.open(item.urlString)
     }
 }
 

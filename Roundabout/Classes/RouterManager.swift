@@ -49,14 +49,14 @@ public class RouterManager {
 //        open(realUrl)
     }
     
-    public func open(_ url: String, sss: RouterParable) {
+    public func open(_ url: String, sss: Any) {
         
         guard let type = routerClasses.filter({ $0.routeURL() == url }).first else {
             // 失败回调
             return
         }
         
-        let t = type.self.init(para: sss)
+        let t = type.routerController(sss)
         
         
 //        let vc = type<RouterParable>.init(para: 1)
